@@ -11,5 +11,5 @@ script:
   - make docker_push
 deploy:
 provider: heroku
-app: NAZWA TWOJEJ APLIKACJI
+app: afternoon-garden-72119
 api_key: ${HEROKU_API_KEY}
