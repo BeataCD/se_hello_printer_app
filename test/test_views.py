@@ -15,12 +15,12 @@ class FlaskrTestCase(unittest.TestCase):
 
     def test_msg_with_output(self):
         rv = self.app.get('/?output=json')
-        self.assertEqual(b'{ "imie": "Natalia", "mgs": "Hello World!"}',
+        self.assertEqual(b'{ "imie": "Beata", "mgs": "Hello World!"}',
                          rv.data)
 
     def test_msg_with_output_xml(self):
         rv = self.app.get('/?output=xml')
-        self.assertEqual(b'<greetings>\n\t<name>Natalia</name> \n\t<msg>Hello World!</msg> \n</greetings>\n', rv.data)# noqa
+        self.assertEqual(b'<greetings>\n\t<name>Beata</name> \n\t<msg>Hello World!</msg> \n</greetings>\n', rv.data)# noqa
 
     def test_name(self):
         rv = self.app.get('/?output=json&name=Beata')
@@ -28,5 +28,5 @@ class FlaskrTestCase(unittest.TestCase):
 
     def test_biblioteka(self):
         rv = self.app.get('/?output=json')
-        self.assertEqual(b'{ "imie": "Natalia", "mgs": "Hello World!"}',
+        self.assertEqual(b'{ "imie": "Beata", "mgs": "Hello World!"}',
                          rv.data)
