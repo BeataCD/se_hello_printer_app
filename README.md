@@ -27,7 +27,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 - Uruchamianie applikacji:
 
   ```
-  
+
   # w trybie dev
   $ make run
 
@@ -63,7 +63,19 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
   ```
   # miejsce na twoje notatki
+
   ```
+  # Dodanie badge z Travis
+
+[![Build Status]([![Build Status](https://travis-ci.org/BeataCD/se_hello_printer_app.svg?branch=master)](https://travis-ci.org/BeataCD/se_hello_printer_app))
+
+# Dodanie badge z Statuscake
+
+[![StatusCake](https://app.statuscake.com/button/index.php?Track=5961423&Days=1&Design=2)](https://app.statuscake.com/UptimeStatus.php?tid=5961423)
+
+# Dodanie Badge z StatusCake
+
+[![Build Status](https://app.statuscake.com/button/index.php?Track=5961429&Days=1&Design=2)]
 
 # Pomocnicze
 
